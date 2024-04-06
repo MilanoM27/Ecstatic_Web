@@ -417,6 +417,16 @@ body {
 ._centered {
   margin-inline: auto;
 }
+.video-background {
+  overflow: hidden;
+  position: relative;
+  flex: 1 1 auto;
+  z-index: -1; 
+}
+
+.video-background video {
+  object-fit: cover;
+}
 
 .title {
   font-family: "Inter Tight", sans-serif;
@@ -797,7 +807,7 @@ body {
 .media-block__text {
   font-family: "Inter Tight", sans-serif;
   font-weight: 700;
-  text-transform: ;
+  text-transform: lowercase;
 }
 @supports (font-size: clamp( 7.5rem , 1.2313432836rem  +  10.447761194vw , 9.25rem )) {
   .media-block__text {
@@ -2349,6 +2359,11 @@ body::after {
   align-self: flex-end;
   font-weight: 700;
   font-family: "Inter Tight", sans-serif;
+}
+
+
+.video-background video {
+  object-fit: cover;
 }
 @supports (font-size: clamp( 2.1875rem , 1.0680970149rem  +  1.8656716418vw , 2.5rem )) {
   .what-we-do__text {
