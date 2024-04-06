@@ -1909,7 +1909,7 @@ body::after {
 .welcome__title {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
-  text-transform: lowercase;
+  text-transform:uppercase;
   display: inline-block;
 }
 @supports (font-size: clamp( 2.75rem , 0.0634328358rem  +  4.4776119403vw , 3.5rem )) {
