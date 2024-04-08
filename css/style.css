@@ -430,7 +430,7 @@ body {
 
 .title {
   font-family: "Inter Tight", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 @supports (font-size: clamp( 2.5rem , 1.45rem  +  4.6666666667vw , 4.25rem )) {
   .title {
@@ -1487,7 +1487,7 @@ body::after {
 }
 .popup__title {
   font-family: "Inter Tight", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 @supports (font-size: clamp( 3.5rem , -0.232718894rem  +  16.5898617512vw , 12.5rem )) {
   .popup__title {
@@ -1916,7 +1916,7 @@ body::after {
 .welcome__title {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
-  text-transform:uppercase;
+  text-transform:none;
   display: inline-block;
 }
 @supports (font-size: clamp( 2.75rem , 0.0634328358rem  +  4.4776119403vw , 3.5rem )) {
